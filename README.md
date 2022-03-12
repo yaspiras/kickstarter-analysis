@@ -22,7 +22,7 @@
 - The same formula was applied to find the number of failed and canceled campaigns
 #### Challenges and Difficulties Encountered
 - When analyzing Outcomes Based on Launch Date, the challenge encountered with this analysis was that, in the row column, when "date created converted" was chosen, the pivot table created included also the years and quarters instead of just the month of the year.  I was able to fix this by dragging the "year" and "quarter" out of the row field so only the months show in the output
-- When analyzing Outcomes Based on Goals, the challenge is that I had to manually change the formula for each count.  At this point, I have know of no faster way to do this but to change the "COUNTIFS" arguments.
+- When analyzing Outcomes Based on Goals, the challenge is that I had to manually change the formula for each count.  At this point, I know of no faster way to do this but to change the "COUNTIFS" arguments.
 
 ### Results
 
@@ -40,4 +40,3 @@
 ### The Limitations of the Data Set is that we could probably use data that tells us what platform the crowdfunding campaign was launched on or what were the demographics of the donors.
 
 Possible tables we can create are the %Successful outcomes based on Month launched; since Louise is in the US, it’s probably better to filter all the analysis with the country, US.
-
