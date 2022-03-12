@@ -29,7 +29,6 @@
 - Outcomes Based on Launch Date analysis shows that May is the best month to launch a crowdfunding campaign and December is the worst month to launch a crowdfunding campaign.
 
 - Outcomes based on Goals analysis shows that:
-####
 - A crowdfunding goal of less than $5,000 will has a success rate of 73-76%.
 - A crowdfunding goal between $5,000-$24,999 have a success rate of 45-55%
 - A crowdfunding goal between $25,000-$34,999 have a success rate of 20-27%
@@ -41,3 +40,4 @@
 ### The Limitations of the Data Set is that we could probably use data that tells us what platform the crowdfunding campaign was launched on or what were the demographics of the donors.
 
 Possible tables we can create are the %Successful outcomes based on Month launched; since Louise is in the US, it’s probably better to filter all the analysis with the country, US.
+
