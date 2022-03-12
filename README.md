@@ -21,16 +21,23 @@
 		- =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays",Kickstarter!$D:$D,"<1000")
 - The same formula was applied to find the number of failed and canceled campaigns
 #### Challenges and Difficulties Encountered
-- The challenge encountered with this analysis was that, in the row column, when "date created converted" was chosen, the pivot table created included also the years and quarters instead of just the month of the year.
-- I was able to fix this by dragging the "year" and "quarter" out of the row field so only the months show in the output
-- The challenge is that I had to manually change the formula for each count.  At this point, I have know of no faster way to do this but to chang the "COUNTIFS" arguments.
+- When analyzing Outcomes Based on Launch Date, the challenge encountered with this analysis was that, in the row column, when "date created converted" was chosen, the pivot table created included also the years and quarters instead of just the month of the year.  I was able to fix this by dragging the "year" and "quarter" out of the row field so only the months show in the output
+- When analyzing Outcomes Based on Goals, the challenge is that I had to manually change the formula for each count.  At this point, I have know of no faster way to do this but to change the "COUNTIFS" arguments.
 
 ### Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- Outcomes Based on Launch Date analysis shows that May is the best month to launch a crowdfunding campaign and December is the worst month to launch a crowdfunding campaign.
 
-- What can you conclude about the Outcomes based on Goals?
+- Outcomes based on Goals analysis shows that:
+####
+- A crowdfunding goal of less than $5,000 will has a success rate of 73-76%.
+- A crowdfunding goal between $5,000-$24,999 have a success rate of 45-55%
+- A crowdfunding goal between $25,000-$34,999 have a success rate of 20-27%
+- Surprisingly, a crowdfunding goal between $35,000-$49,000 have a success rate of 67%
+- A crowdfunding goal between $45,000-$49,000 has 0% success rate
+- A crowdfunding goal of $50,000 or more has a 17% success rate
 
-- What are some limitations of this dataset?
 
-- What are some other possible tables and/or graphs that we could create?
+### The Limitations of the Data Set is that we could probably use data that tells us what platform the crowdfunding campaign was launched on or what were the demographics of the donors.
+
+Possible tables we can create are the %Successful outcomes based on Month launched; since Louise is in the US, it’s probably better to filter all the analysis with the country, US.
