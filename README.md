@@ -1,27 +1,26 @@
-## Success or Failure of Crowdfunding Based on their Launch Dates and Funding Goals
+## **Kickstarter Campaign Outcomes Based on Launch Dates and Funding Goals**
 
-### Purpose: to analyze how different crowdfunding campaigns for plays faired in relation to their launch dates and funding goals.
+### Overview of Project
 
-## Analysis and Challenges
+#### The purpose of this project is to analyze how different crowdfunding campaigns for plays faired in relation to their launch dates and funding goals.
 
-### Analysis of Outcomes Based on Launch Date
+### Analysis and Challenges
 
-	
+#### Analysis of Outcomes Based on Launch Date
+	To analyze the success or failure of a crowdfunding campaign 	for plays based on its launch date:
+		*	A pivot table was created using the Kickstarter worksheet where:
+			1) Parent Category and Years were the filter
+			2) Outcomes
 
-### Analysis of Outcomes Based on Goals
-	
+#### Analysis of Outcomes Based on Goals
 
-### Challenges and Difficulties Encountered
+#### Challenges and Difficulties Encountered
 
-## Results
+### Results
 
-- A crowdfunding campaign launched between May and July are more likely to have a successful outcome.
--  A crowdfunding goal of less than $5,000 will has a success rate of 73-76%.
-- A crowdfunding goal between $5,000-$24,999 have a success rate of 45-55%
-- A crowdfunding goal between $25,000-$34,999 have a sucess rate of 20-27%
-- Surprisingly, a crowdfunding goal between $35,000-$49,000 have a success rate of 67%
-- A crowdfunding goal between $45,000-$49,000 has 0% success rate
-- A crowdfunding goal of $50,000 or more has a 17% success rate
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+- What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
 
